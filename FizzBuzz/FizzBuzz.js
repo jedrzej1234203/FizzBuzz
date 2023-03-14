@@ -1,6 +1,6 @@
 const fizzBuzz = {
   divide: function (a) {
-    if((a %3 === 0) && (a % 5 === 0)){
+    if (a % 3 === 0 && a % 5 === 0) {
       return "FizzBuzz";
     }
     if (a % 3 === 0) {
@@ -8,6 +8,8 @@ const fizzBuzz = {
     }
     if (a % 5 === 0) {
       return "Buzz";
+    } else {
+      return a;
     }
   },
 };
