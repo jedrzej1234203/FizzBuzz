@@ -1,7 +1,7 @@
 const fizzBuzz = {
   fizz: function (a) {
-    return "Fizz";
-  },
-};
+   return (a % 3 ===0 ? 'Fizz' : 'None')
+}
+}
 
 module.exports = fizzBuzz;
