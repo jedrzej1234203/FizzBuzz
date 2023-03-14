@@ -1,0 +1,22 @@
+{
+  "name": "fizz_buzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedrzej1234203/FizzBuzz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedrzej1234203/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/jedrzej1234203/FizzBuzz#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
